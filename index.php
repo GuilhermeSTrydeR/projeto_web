@@ -40,9 +40,6 @@ $pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 'inicio';
             <li class="nav-item <?= ($pagina == 'sobre')?'active':'' ?>">
               <a class="nav-link" href="?pagina=sobre">Sobre</a>
             </li>
-            <li class="nav-item <?= ($pagina == 'listagem')?'active':'' ?>">
-              <a class="nav-link" href="?pagina=listagem">listagem</a>
-            </li>
             <li class="nav-item <?= ($pagina == 'contato')?'active':'' ?>">
               <a class="nav-link" href="?pagina=contato">Contato</a>
             </li>

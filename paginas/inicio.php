@@ -1,28 +1,17 @@
-<div class="row justify-content-md-center">
+<div id="cadastros">
+    <div id="novo_cadastro">
 
-    <div class="col-8">
-        <h1>Cadastro de Usuarios</h1>
-        <p>Preencha o Cadastro do Usuario abaixo:</p>
-        <form action="?pagina=crud_contato/registrar_contato" method="POST">
-            <div class="form-group">
-                <label>Nome:</label>
-                <input type="text" class="form-control nome" name="nome" required placeholder="Nome" />
-            </div>
-            <div class="form-group">
-                <label>Descrição:</label>
-                <input type="text" class="form-control descricao" name="descricao" required placeholder="Descrição">
-            <br>
-            <div class="form-group">
-                <label>E-mail:</label>
-                <input type="text" class="form-control e-mail" name="email" required placeholder="E-mail">
-            <br>
-            <div class="form-group">
-                <label>Telefone:</label>
-                <input type="text" class="form-control telefone" name="telefone" required placeholder="Telefone">
-            <br>
-            <div class="form-button">
-                <button type="submit" class="btn btn-primary">Cadastrar</button>
-            </div>
-        </form>
+            <a class="btn btn-primary" href="?pagina=novo_cadastro" role="button">Cadastrar Novo Usuario</a>
+    
     </div>
+
+
+    <div id="listagem_cadastros">
+
+            <a class="btn btn-primary" href="?pagina=listagem" role="button">Listar Cadastros &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </a>
+        
+
+    </div>
+
 </div>
+
