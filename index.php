@@ -1,5 +1,12 @@
 <?php
 
+//requerimento para linkar a classe PDO de conexão do banco
+require("classes/conexao_bd.php");
+
+//conexao com a classe de contato
+require("classes/contato.class.php");
+
+//a variavel abaixo define a pagina selecionada ao clicar nos menus
 $pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 'inicio';
 
 ?>
@@ -18,10 +25,9 @@ $pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 'inicio';
     <!-- CSS do projeto -->
     <link rel="stylesheet" href="./css/css.css">
 
-
 </head>
 <body>
-    
+      <!-- campo simples de menu -->
       <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -44,7 +50,9 @@ $pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 'inicio';
         </div>
       </nav>
       
+      
       <?php
+        //esse include ira colocar na tela a pagina selecionada e que foi atribuida a variavel $pagina
         include("./paginas/$pagina.php");
       ?>
 
