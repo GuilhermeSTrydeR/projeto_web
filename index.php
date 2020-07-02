@@ -6,6 +6,8 @@ require("classes/conexao_bd.php");
 //conexao com a classe de contato
 require("classes/contato.class.php");
 
+
+
 //a variavel abaixo define a pagina selecionada ao clicar nos menus
 $pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 'inicio';
 
@@ -23,7 +25,7 @@ $pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 'inicio';
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 
     <!-- CSS do projeto -->
-    <link rel="stylesheet" href="./css/css.css">
+    <link href="css/projeto.css" rel="stylesheet">
 
 </head>
 <body>
@@ -35,17 +37,21 @@ $pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 'inicio';
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav">
             <li class="nav-item <?= ($pagina == 'inicio')?'active':'' ?>">
-              <a class="nav-link" href="?pagina=inicio">Início</a>
+              <a class="nav-link" href="?pagina=inicio"><b>Início</b></a>
             </li>
             <li class="nav-item <?= ($pagina == 'sobre')?'active':'' ?>">
-              <a class="nav-link" href="?pagina=sobre">Sobre</a>
+              <a class="nav-link" href="?pagina=sobre"><b>Sobre</b></a>
             </li>
             <li class="nav-item <?= ($pagina == 'contato')?'active':'' ?>">
-              <a class="nav-link" href="?pagina=contato">Contato</a>
+              <a class="nav-link" href="?pagina=contato"><b>Contato</b></a>
             </li>
           </ul>
+
         </div>
       </nav>
+
+
+            
       
       
       <?php

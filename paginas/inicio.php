@@ -13,5 +13,12 @@
 
     </div>
 
+        <div id="campo_vis_contato">
+
+          <a class="btn btn-primary" href="?pagina=crud_contato/vis_contato" role="button"> Visualizar <br> os <br>
+          contatos</a>
+             
+        </div>
+
 </div>
 
