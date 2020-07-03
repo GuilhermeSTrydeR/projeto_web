@@ -9,6 +9,9 @@ require("classes/contato.class.php");
 //conexão com a classe de produtos
 require("classes/produto.class.php");
 
+//conexão com a classe de servicos
+require("classes/servico.class.php");
+
 
 //a variavel abaixo define a pagina selecionada ao clicar nos menus
 $pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 'inicio';
@@ -18,9 +21,6 @@ $pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 'inicio';
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
-
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cadastro de pessoas</title>
@@ -63,4 +63,6 @@ $pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 'inicio';
 <script src="./projetoweb/javascript/script.js"></script>
 
 </body>
+
+
 </html>

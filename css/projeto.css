@@ -32,14 +32,12 @@ esse arquivo é destinado aos estilos de folha personalizados do site.
 #cadastros{
 
     padding-top: 20px;
-    padding-left: 800px;
-
-
+    padding-left: 10px;
 }
 
 #listagem_cadastros{
 
-    padding-left: 25px;
+    padding-left: 40px;
     width: 100px;
     height: 100px;
     display: inline-block;
@@ -48,6 +46,25 @@ esse arquivo é destinado aos estilos de folha personalizados do site.
 
 #novo_cadastro{
     
+    padding-left: 35px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+#menu_servicos{
+
+    padding-left: 40px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+#menu_cadastros{
+
+    padding-left: 35px;
     width: 100px;
     height: 100px;
     display: inline-block;
@@ -55,8 +72,10 @@ esse arquivo é destinado aos estilos de folha personalizados do site.
 }
 
 #campo_vis_contato{
-    margin-left: 50px;
-    margin-top: 10px;
+
+    padding-left: 40px;
+    width: 100px;
+    height: 100px;
     display: inline-block;
 }
 

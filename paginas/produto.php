@@ -3,7 +3,7 @@
 
                 
                 <form action="?pagina=crud_produto/registrar_produto" method="POST">
-                <h1>Registrar Produto</h1>
+                <h1>Cadastrar Produto</h1>
                 <p>Preencha o campo abaixo com as informações do produto:</p>
                     <div class="form-group">
                         <label>Nome:</label>

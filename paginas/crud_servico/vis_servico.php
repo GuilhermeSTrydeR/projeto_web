@@ -1,6 +1,6 @@
 <?php
 
-$vItem = Produto::get_Produtos();
+$vItem = Servico::get_Servicos();
 
 ?>
 
@@ -12,7 +12,8 @@ $vItem = Produto::get_Produtos();
         <th scope="col">ID</th>
         <th scope="col">Nome</th>
         <th scope="col">Descrição</th>
-        <th scope="col">Preço</th>
+        <th scope="col">Previsao</th>
+        <th scope="col">Finalizado?</th>
       </tr>
     </thead>
         <tbody>
@@ -33,7 +34,10 @@ $vItem = Produto::get_Produtos();
                 <?= $objItem->descricao ?>
               </td>
               <td class='align-middle'>
-                <?= $objItem->preco ?>
+                <?= $objItem->previsao ?>
+              </td>
+              <td class='align-middle'>
+                <?= $objItem->finalizado ?>
               </td>
 
             </tr>
