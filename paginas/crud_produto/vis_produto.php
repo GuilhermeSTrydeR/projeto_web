@@ -12,6 +12,7 @@ $vItem = Produto::get_Produtos();
         <th scope="col">ID</th>
         <th scope="col">Nome</th>
         <th scope="col">Descrição</th>
+        <th scope="col">Categoria</th>
         <th scope="col">Preço</th>
       </tr>
     </thead>
@@ -31,6 +32,9 @@ $vItem = Produto::get_Produtos();
               </td>
               <td class='align-middle'>
                 <?= $objItem->descricao ?>
+              </td>
+              <td class='align-middle'>
+                <?= $objItem->categoria ?>
               </td>
               <td class='align-middle'>
                 <?= $objItem->preco ?>

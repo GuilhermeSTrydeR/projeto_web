@@ -26,7 +26,7 @@
 
       <center>
         <a href="?pagina=inicio" class="btn btn-primary">&nbsp; Voltar para Início &nbsp;</a>
-        <a href="?pagina=produto" class="btn btn-primary">Voltar para registrar outro serviço</a>
+        <a href="?pagina=servico" class="btn btn-primary">Voltar para registrar outro serviço</a>
       </center>
 
       <?php

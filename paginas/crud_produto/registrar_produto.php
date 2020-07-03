@@ -9,6 +9,7 @@
           NULL,
           $_POST['nome'],
           $_POST['descricao'],
+          $_POST['categoria'],
           $_POST['preco'],  
         );
 

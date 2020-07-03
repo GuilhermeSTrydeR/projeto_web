@@ -15,14 +15,15 @@
                 </div>
                 <div class="form-group">
                     <label>Previsão:</label>
-                    <input type="previsao" class="form-control" name="previsao" required placeholder="Digite uma previsão caso há alguma" />
+                    <input type="text" class="form-control" name="previsao" required placeholder="Digite uma previsão caso há alguma" />
                 </div>
                 <div class="form-group">
-                    <label>Finalizado?:</label>
-                    <textarea name="finalizado" class="form-control" required placeholder="o serviço ja foi efetuado?"></textarea>
+                    <label>Finalizado?</label>
+                    <input type="text" class="form-control" name="finalizado" required placeholder="o serviço ja foi efetuado?" />
                 </div>
+                
                 <div class="form-button">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
                 </div>
             </form>
         </div>

@@ -7,8 +7,8 @@
     da universidade unincor - vale do rio verde, <br>
     sem qualquer fim lucrativo <br>
     <br>
-    Guilherme Pereira de Mello Silva, formando em Ciência da Computação
-
+    Guilherme Pereira de Mello Silva, formando em Ciência da Computação <br>
+    meu github: <a href="https://github.com/GuilhermeSTrydeR">https://github.com/GuilhermeSTrydeR</a>
 </div>
 
 <div id="img_sobre">

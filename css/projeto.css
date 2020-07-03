@@ -17,6 +17,7 @@ esse arquivo é destinado aos estilos de folha personalizados do site.
     
     margin: 50px;
     margin-left: 360px;
+    margin-top: 20px;
     border: 1px solid black;
     padding: 10px;
     
@@ -25,12 +26,14 @@ esse arquivo é destinado aos estilos de folha personalizados do site.
 #img_sobre{
 
     margin: 50px;
+    margin-top: 5px;
     padding-left: 300px;
+
     
 }
 
 #cadastros{
-
+    
     padding-top: 20px;
     padding-left: 10px;
 }
@@ -122,6 +125,21 @@ esse arquivo é destinado aos estilos de folha personalizados do site.
     display: inline-block;
 }
 
+#dl_database{
+
+    padding-left: 50px;
+    display: inline-block;
+
+
+}
+
+#menu_admin{
+
+    padding-left: 40px;
+    display: inline-block;
+    
+
+}
 
 #tbl_vis_produto{
 
@@ -148,5 +166,23 @@ esse arquivo é destinado aos estilos de folha personalizados do site.
     text-overflow: ellipsis;
     white-space: nowrap;
    
+
+}
+
+
+#bemvindo{
+
+    position: absolute;
+    right: 150px;
+    top: 75px;
+    display: inline-block;
+
+    border: 1px solid black;
+    padding: 10px;
+
+    background-color: #bddcfd;
+
+    font-family: arial;
+    
 
 }
