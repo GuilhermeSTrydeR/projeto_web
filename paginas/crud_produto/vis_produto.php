@@ -1,21 +1,18 @@
 <?php
 
-$vItem = Contato::get_Contatos();
+$vItem = Produto::get_Produtos();
 
 ?>
 
-<div id="tbl_vis_contato">
-  <table class="table table-striped">
-
-    
+<div id="tbl_vis_produto">
+  <table class="table">
 
     <thead>
       <tr class="table-primary">
         <th scope="col">ID</th>
         <th scope="col">Nome</th>
-        <th scope="col">telefone</th>
-        <th scope="col">E-mail</th>
-        <th scope="col">Mensagem</th>
+        <th scope="col">Descrição</th>
+        <th scope="col">Preço</th>
       </tr>
     </thead>
         <tbody>
@@ -33,13 +30,10 @@ $vItem = Contato::get_Contatos();
                 <?= $objItem->nome ?>
               </td>
               <td class='align-middle'>
-                <?= $objItem->telefone ?>
+                <?= $objItem->descricao ?>
               </td>
               <td class='align-middle'>
-                <?= $objItem->email ?>
-              </td>
-              <td class='align-middle'>
-                <?= $objItem->mensagem ?>
+                <?= $objItem->preco ?>
               </td>
 
             </tr>

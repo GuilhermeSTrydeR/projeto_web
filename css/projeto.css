@@ -75,4 +75,59 @@ esse arquivo é destinado aos estilos de folha personalizados do site.
 
     border: 2px solid #b8daff;
 
+    
+
+}
+
+#tbl_vis_contato table td{
+
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+   
+
+}
+
+#tbl_cad_contato{
+
+    width: 70%;
+    padding-left: 400px;
+    padding-top: 35px;
+
+}
+
+#campo_vis_produto{
+    margin-left: 50px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+#tbl_vis_produto{
+
+    
+    width: 80%;
+    padding-left: 130px;
+    padding-top: 35px;
+    
+    
+}
+
+#tbl_vis_produto table{
+
+    border: 2px solid #b8daff;
+
+    
+
+}
+
+#tbl_vis_produto table td{
+
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+   
+
 }

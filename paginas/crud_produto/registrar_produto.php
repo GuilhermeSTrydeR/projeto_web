@@ -5,20 +5,19 @@
 
       if(isset($_POST['nome'])){
 
-        $objContato = new Contato(
+        $objProduto = new Produto(
           NULL,
           $_POST['nome'],
-          $_POST['telefone'],
-          $_POST['email'],
-          $_POST['mensagem']
+          $_POST['descricao'],
+          $_POST['preco'],  
         );
 
-        if( $objContato->salvar() ){
+        if( $objProduto->salvar() ){
 
       ?>
 
       <div class="alert alert-success alert-dismissible fade show" role="alert">
-        Formulário enviado com sucesso!
+        Produto cadastrado com sucesso!
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -26,7 +25,7 @@
 
       <center>
         <a href="?pagina=inicio" class="btn btn-primary">&nbsp; Voltar para Início &nbsp;</a>
-        <a href="?pagina=contato" class="btn btn-primary">Voltar para Contato</a>
+        <a href="?pagina=produto" class="btn btn-primary">Voltar para registrar outro produto</a>
       </center>
 
       <?php
@@ -42,7 +41,7 @@
       </div>
 
       <center>
-        <a href="?pagina=contato" class="btn btn-primary">Voltar para Contato</a>
+        <a href="?pagina=produto" class="btn btn-primary">Voltar para Produto</a>
       </center>
 
       <?php

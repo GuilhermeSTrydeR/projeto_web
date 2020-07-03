@@ -6,6 +6,8 @@ require("classes/conexao_bd.php");
 //conexao com a classe de contato
 require("classes/contato.class.php");
 
+//conexão com a classe de produtos
+require("classes/produto.class.php");
 
 
 //a variavel abaixo define a pagina selecionada ao clicar nos menus
@@ -16,6 +18,8 @@ $pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 'inicio';
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
+
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,15 +53,14 @@ $pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 'inicio';
 
         </div>
       </nav>
-
-
-            
-      
       
       <?php
-        //esse include ira colocar na tela a pagina selecionada e que foi atribuida a variavel $pagina
+        //esse include ira colocar na tela a pagina selecionada e que foi atribuida a variavel $pagina, assim sempre que uma pagina for atribuida a variavel $pagina, ela sera incluida abaixo
         include("./paginas/$pagina.php");
       ?>
+      
+
+<script src="./projetoweb/javascript/script.js"></script>
 
 </body>
 </html>
